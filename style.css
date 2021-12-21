@@ -95,6 +95,31 @@ body {
 
 .information {
   background-color: #f9faf8;
+  padding: 96px 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.information .information-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.information .information-row {
+  display: flex;
+  gap: 48px;
+}
+
+.information .information-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.information .subtext {
+  flex: 1 1 0;
 }
 
 /* QUOTE */
